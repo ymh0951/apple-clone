@@ -530,13 +530,13 @@
 
         if (scrollRatio < values.rect1X[2].end) {
           step = 1;
-          objs.canvas.classList.remove("sticky-elem");
+          objs.canvas.classList.remove("sticky");
           // console.log("캔버스 닿기 전");
         } else {
           step = 2;
           // console.log("캔버스 닿은 후");
           // 이미지 블렌드
-          objs.canvas.classList.add("sticky-elem");
+          objs.canvas.classList.add("sticky");
         }
 
         break;
