@@ -70,6 +70,7 @@ a {
 }
 
 .scroll-section {
+  position: relative;
   padding-top: 50vh;
 }
 
@@ -175,7 +176,7 @@ a {
 }
 
 .sticky-elem {
-  display: none;
+  /* display: none; */
   position: fixed;
   left: 0;
   width: 100%;
@@ -199,8 +200,8 @@ a {
   left: 50%;
 }
 
-.image-blend-canvas {
-  background-color: blue;
+.image-blend-canvas.sticky-elem {
+  top: 0;
 }
 
 #scroll-section-3 {
